@@ -94,6 +94,15 @@ Steps to clone the repository
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 🔭 Key Features <a name="key-features"></a>
+
+- Ability to add name and the respective score
+
+- Refresh the score board to see recently updated scores.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Implement the save function to save the name and scores using an API.
