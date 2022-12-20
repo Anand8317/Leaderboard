@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+</head>
+<body>
+    <h1>Leaderboard</h1>
+    <section class="recentScore addYourScore">
+      <div id="recentScore">
+        <div id="h2ImgWrapper">
+          <h2>Recent Scores</h2>
+          <button type="button">Refresh</button>
+        </div>
+        <ul id="scoresList">
+          <!-- <li>12345</li>
+          <li>12345</li>
+          <li>12345</li> -->
+        </ul>
+      </div>
+
+      <div id="addYourScore">
+        <h2>Add your score</h2>
+        <input type="text" placeholder="Your name" id="name" class="mb">
+        <input type="number" placeholder="Your score" id="score" class="mb">
+        <button type="submit" class="mb" id="submit">Submit</button>
+        <h4 id="error" class="hideError">No empty input fields</h4>
+      </div>
+    </section>
+
+    <footer>
+      <img id="footerImg" alt="FooterImg"> 
+    </footer>
+</body>
+</html>
