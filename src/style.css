@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.recentScore {
+  display: flex;
+  justify-content: space-around;
+}
+
+#h2ImgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#h2ImgWrapper > h2 {
+  margin-right: 20px;
+}
+
+#addYourScore {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+#submit {
+  width: 40%;
+  align-self: flex-end;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  border: 3px solid black;
+}
+
+li {
+  list-style: none;
+  background: #ddd;
+}
+
+li:nth-child(odd) {
+  background: #fff;
+}
+
+.hideError {
+  display: none;
+}
+
+.showError {
+  display: block;
+  color: red;
+}
+
+footer {
+  background: #c1c1c1;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  margin-top: 50px;
+  bottom: 0;
+}
+
+#footerImg {
+  position: fixed;
+  right: 10px;
+}
