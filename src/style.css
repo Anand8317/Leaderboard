@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(34,193,195);
-  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 97%);
+  background: rgb(34, 193, 195);
+  background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 97%);
 }
 
 h1 {
@@ -14,6 +14,11 @@ h1 {
 .recentScore {
   display: flex;
   justify-content: space-around;
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
 }
 
 #h2ImgWrapper {
@@ -74,7 +79,7 @@ li:nth-child(odd) {
 }
 
 .button {
-  background-color: #A53F2B;
+  background-color: #a53f2b;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -85,8 +90,7 @@ li:nth-child(odd) {
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:hover {
@@ -98,10 +102,3 @@ input {
   height: 50px;
   padding-left: 20px;
 }
-
-h2 {
-  font-size: 32px;
-  color: black
-}
-
-
