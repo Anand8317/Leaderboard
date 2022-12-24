@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/57011448dc08b9372b5e.css">
     <title>Leaderboard</title>
 <script defer src="./runtime.js"></script><script defer src="./main.js"></script></head>
 <body>
@@ -11,12 +12,9 @@
       <div id="recentScore">
         <div id="h2ImgWrapper">
           <h2>Recent Scores</h2>
-          <button type="button" id="refresh">Refresh</button>
+          <button type="button" class="button" id="refresh">Refresh</button>
         </div>
         <ul id="scoresList">
-          <!-- <li>12345</li>
-          <li>12345</li>
-          <li>12345</li> -->
         </ul>
       </div>
 
@@ -24,13 +22,9 @@
         <h2>Add your score</h2>
         <input type="text" placeholder="Your name" id="name" class="mb">
         <input type="number" placeholder="Your score" id="score" class="mb">
-        <button type="submit" class="mb" id="submit">Submit</button>
+        <button type="submit" class="mb button" id="submit">Submit</button>
         <h4 id="error" class="hideError">No empty input fields</h4>
       </div>
     </section>
-
-    <footer>
-      <img id="footerImg" alt="FooterImg"> 
-    </footer>
 </body>
 </html>
